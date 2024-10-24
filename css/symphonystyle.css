@@ -1,0 +1,40 @@
+body {
+  background-color: beige;
+  }
+
+h1 {
+    font-family: Baskervville;
+    color: #6e0e0a;
+    text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #124e78;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  font-size: 30px;
+}
+
+li a {
+  display: block;
+  color: beige;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #0f3f60;
+}
+
+.active {
+  background-color: #6e0e0a;
+}

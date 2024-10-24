@@ -1,0 +1,112 @@
+
+body {
+  background-color: beige;
+  }
+  
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing:auto;
+    font-weight:(0,0,100);
+    font-style: normal;
+  }
+
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  color: #124e78;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 60px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+h2 {
+  font-family: "Libre Baskerville", serif;
+  color: #124e78;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size:36px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+h3 {
+  color: #6e0e0a;
+  padding-top: 1px;
+  padding-left: 35px;  
+  font-size: 24px;
+  font-family: "Libre Baskerville", serif;
+}
+ h4 {
+  color: black;
+  padding-top: 1px;
+  padding-left: 40px;  
+  font-size: 18px;
+  font-family: "monsterrat";
+ }
+
+p {
+  color: gray;
+  padding-top: 1px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 14px;
+  font-family: "montserrat";
+
+}
+
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #124e78;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    font-size: 30px;
+  }
+  
+  li a {
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #0f3f60;
+  }
+  
+  .active {
+    background-color: #6e0e0a;
+  }
+
+
+img {
+  padding-top: 40px;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.item1 {grid-area: header}
+.item2 {grid-area: menu}
+.item3 {grid-area: intro}
+.item4 {grid-area: main}
+
+.grid-container {
+    grid-template-areas:
+      'header header header header header'
+      'menu intro intro intro intro'
+      'menu main main main main';
+  }

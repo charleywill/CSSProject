@@ -1,0 +1,77 @@
+@media screen and (min-width: 480px){
+    body{
+        background-image: url("contactbackground.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.office{
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+    font-family: "Libre Baskerville", serif;
+    color: #124e78;
+    padding-top: 30px;
+    padding-left: 36px;
+    font-size: 60px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+h2 {
+    font-family: "Libre Baskerville", serif;
+    color: #124e78;
+    padding-left: 10px;
+    font-size:35px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+h3 {
+  font-family: "Libre Baskerville", serif;
+  color: #124e78;
+  font-size:25px;
+  margin-top: 5px;
+  font-weight: bold;
+  margin-bottom:0px;
+}
+
+p em{
+  margin:0px;
+  padding:0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #124e78;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    font-size: 30px;
+  }
+  
+  li a {
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #0f3f60;
+  }
+  
+  .active {
+    background-color: #6e0e0a;
+  }
