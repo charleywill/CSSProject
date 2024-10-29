@@ -59,7 +59,7 @@ p {
     font-size: 28px;
   }
 
-<<<<<<< Updated upstream
+
   img {
     top: 400px;
     left: 400px;
@@ -67,8 +67,6 @@ p {
     position: sticky;
   }
 
-=======
->>>>>>> Stashed changes
   ul {
     list-style-type: none;
     position: fixed;
@@ -115,10 +113,8 @@ p {
   .two {
     flex: auto;
   }
-<<<<<<< Updated upstream
-=======
+
 
   a {
     text-decoration: none;
   }
->>>>>>> Stashed changes
