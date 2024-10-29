@@ -41,8 +41,17 @@ body {
   h5 {
     color: #6e0e0a;
     padding: 5px;
-    font-size: 28px;
+    font-size: 32px;
+    font-family: "League Spartan", sans-serif;
+    text-align: center;
   }
+  h6 {
+    color: #1f1812;
+    font-size: 22px;
+    padding: 5px;
+    margin-left: 10px;
+    text-align: center;
+}
 
 p {
     color: #1f1812;
@@ -50,6 +59,7 @@ p {
     font-size: 28px;
   }
 
+<<<<<<< Updated upstream
   img {
     top: 400px;
     left: 400px;
@@ -57,6 +67,8 @@ p {
     position: sticky;
   }
 
+=======
+>>>>>>> Stashed changes
   ul {
     list-style-type: none;
     position: fixed;
@@ -103,3 +115,10 @@ p {
   .two {
     flex: auto;
   }
+<<<<<<< Updated upstream
+=======
+
+  a {
+    text-decoration: none;
+  }
+>>>>>>> Stashed changes
