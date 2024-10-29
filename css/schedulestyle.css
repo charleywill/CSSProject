@@ -59,6 +59,14 @@ p {
     font-size: 28px;
   }
 
+
+  img {
+    top: 400px;
+    left: 400px;
+    width: 50vw;
+    position: sticky;
+  }
+
   ul {
     list-style-type: none;
     position: fixed;
@@ -105,6 +113,7 @@ p {
   .two {
     flex: auto;
   }
+
 
   a {
     text-decoration: none;
