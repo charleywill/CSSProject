@@ -1,43 +1,87 @@
-@media screen and (min-width: 480px){
+/*@media screen and (min-width: 480px){
     body{
         background-image: url("contactbackground.png");
         background-size: cover;
         background-repeat: no-repeat;
     }
 }
+*/
 
 .office{
   display: flex;
   flex-direction: row;
+  margin-top:10px;
+  text-align: center;
+  justify-content: space-between;
+  margin-left:10px;
+  margin-right:10px;
 }
 
 h1 {
     font-family: "Libre Baskerville", serif;
     color: #124e78;
     padding-top: 30px;
-    padding-left: 36px;
-    font-size: 60px;
-    margin-bottom: 0px;
-    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 20px;
+
+    font-weight: 700;
     font-style: italic;
+    text-align: center;
   }
 
-h2 {
+.office h2 {
     font-family: "Libre Baskerville", serif;
     color: #124e78;
     padding-left: 10px;
-    font-size:35px;
+    padding-right: 10px;
+    font-size:40px;
     margin-top: 0px;
-    font-weight: bold;
+    font-weight: 600;
+    text-decoration: underline;
 }
 
-h3 {
+#Address{
+  border-color:#6e0e0a;
+  border-style:groove;
+}
+#Phone{
+  border-color:#d74e09;
+  border-style:groove;
+}
+#BoxOffice{
+  border-color:#f2bb05;
+  border-style:groove;
+}
+
+
+h2{
+    font-family: "Libre Baskerville", serif;
+    color: #124e78;
+    font-size:20px;
+    margin-top: 0px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.office h3 {
   font-family: "Libre Baskerville", serif;
   color: #124e78;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size:25px;
-  margin-top: 5px;
-  font-weight: bold;
-  margin-bottom:0px;
+  font-weight: 600;
+  margin-top:-20px;
+  margin-bottom:30px;
+}
+
+h4{
+  font-family: "Libre Baskerville", serif;
+  color: #124e78;
+  font-size:20px;
+  font-weight: 500;
+  font-style: italic;
+  margin-top:-30px;
+  margin-bottom:30px;
 }
 
 p em{
@@ -46,32 +90,40 @@ p em{
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #124e78;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  li {
-    float: left;
-    font-size: 30px;
-  }
-  
-  li a {
-    display: block;
-    color: beige;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #0f3f60;
-  }
-  
-  .active {
-    background-color: #6e0e0a;
-  }
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 124px;
+  background-image: url("../img/schedule/ulback.png");
+}
+li {
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: #f3e2c6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #961d30;
+}
+
+.active {
+  background-color: #6e0e0a;
+}
+
+
+body {
+background-image: url("../img/schedule/cssback.png");
+padding-top:50px;
+}
