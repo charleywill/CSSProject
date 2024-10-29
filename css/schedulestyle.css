@@ -41,18 +41,23 @@ body {
   h5 {
     color: #6e0e0a;
     padding: 5px;
-    font-size: 28px;
+    font-size: 32px;
+    font-family: "League Spartan", sans-serif;
+    text-align: center;
   }
+  h6 {
+    color: #1f1812;
+    font-size: 22px;
+    padding: 5px;
+    margin-left: 10px;
+    text-align: center;
+}
 
 p {
     color: #1f1812;
     padding: 5px;
     font-size: 28px;
-}
-
-img {
-  right: 20px;
-}
+  }
 
   ul {
     list-style-type: none;
@@ -99,4 +104,8 @@ img {
   
   .two {
     flex: auto;
+  }
+
+  a {
+    text-decoration: none;
   }
