@@ -37,28 +37,30 @@ h3 {
   padding-top: 1px;
   padding-left: 35px;  
   font-size: 24px;
-  font-family: "Libre Baskerville", serif;
+  font-family: "League Spartan", sans-serif;
 }
  h4 {
   color: black;
   padding-top: 1px;
   padding-left: 40px;  
   font-size: 18px;
-  font-family: "monsterrat";
+  font-family: "League Spartan", sans-serif;
  }
 
 p {
-  color: gray;
+  color: darkslategrey;
   padding-top: 1px;
   padding-left: 50px;
   padding-right: 50px;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 2;
   font-family: "montserrat";
 
 }
 
 
   ul {
+    font-family: "League Spartan", sans-serif;
     list-style-type: none;
     position: fixed;
     top: 0;
@@ -73,6 +75,7 @@ p {
     float: left;
     font-size: 30px;
     font-weight: bold;
+    padding-top: 10px;
     text-align: center;
   }
  
@@ -100,7 +103,6 @@ body {
 
 
 img {
-  padding-top: 80px;
   width: 100%;
   height: auto;
 }
