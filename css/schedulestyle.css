@@ -235,4 +235,9 @@ p {
       a {
         text-decoration: none;
       }
+
+      img {
+        width: 400px;
+      }
+
   }
