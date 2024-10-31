@@ -154,5 +154,10 @@ img {
         font-weight: bold;
       }
 
+      img {
+        width: 400px;
+        height: auto;
+      }
+
     }
 
