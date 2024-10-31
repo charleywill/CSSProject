@@ -147,8 +147,8 @@ img {
       font-family: "League Spartan", sans-serif;
         color: #1f1812;
         text-align: center;
-        padding-bottom: 15px;
-        padding-top: 15 px;
+        padding-bottom: 10px;
+        padding-top: 10 px;
         font-size: 40px;
         margin-bottom: 0px;
         font-weight: bold;
@@ -156,7 +156,8 @@ img {
 
       img {
         width: 400px;
-        height: auto;
+        height: 20vh;
+        
       }
 
     }
