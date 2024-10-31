@@ -142,25 +142,21 @@ img {
     background-color: #6e0e0a;
     }
 
+
     h1 {
       font-family: "League Spartan", sans-serif;
         color: #1f1812;
         text-align: center;
-        padding-bottom: 30px;
-        padding-top: 30px;
+        padding-bottom: 15px;
+        padding-top: 15 px;
         font-size: 40px;
         margin-bottom: 0px;
         font-weight: bold;
       }
 
-      p {
-        color: darkslategrey;
-        padding-top: 1px;
-        padding-left: 25px;
-        padding-right: 25px;
-        font-size: 16px;
-        line-height: 2;
-        font-family: "montserrat";
-      
+      img {
+        width: 150%;
+        height: auto;
       }
+
     }
