@@ -59,24 +59,27 @@ p {
     font-size: 28px;
   }
 
+
   ul {
+    font-family: "League Spartan", sans-serif;
     list-style-type: none;
     position: fixed;
-    top: 0; 
+    top: 0;
     left: 0;
     margin: 0;
     width: 100%;
     height: 124px;
     background-image: url("../img/schedule/ulback.png");
   }
-  
+
   li {
     float: left;
     font-size: 30px;
     font-weight: bold;
+    padding-top: 10px;
     text-align: center;
   }
-  
+ 
   li a {
     display: block;
     color: #f3e2c6;
@@ -84,26 +87,31 @@ p {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+ 
   li a:hover:not(.active) {
     background-color: #961d30;
   }
-  
+ 
   .active {
     background-color: #6e0e0a;
   }
+
   
   .box {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .one {
-    flex: auto;
-    margin-left: 3%;
+    justify-content: center;
+    align-items: center;
   }
   
   .two {
     flex: auto;
+    justify-content: center;
+    align-items: center;
   }
 
   a {
