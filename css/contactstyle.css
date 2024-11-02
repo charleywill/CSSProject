@@ -1,217 +1,210 @@
-@media screen and (min-width: 480px){
-  .header{
-    display:flex;
-    justify-content: center;
-  }
+.office{
+  display: flex;
+  flex-direction: row;
+  margin-top:10px;
+  padding-top: 25px;
+  text-align: center;
+  justify-content: space-between;
+  margin-left:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  
+}
 
-  .office{
-    display: flex;
-    flex-direction: row;
-    margin-top:10px;
-    padding-top: 25px;
+.container{
+  display:flex;
+  flex-direction: column;
+  margin-left:0px;
+  margin-right:0px;
+  border-style: solid;
+  border-color:#6e0e0a;
+}
+
+.container p{
+  text-align:center;
+  
+  font-family: "Libre Baskerville", serif;
+  font-size: 15px;
+}
+
+.container h3{
+  text-align:center;
+  font-family: "Libre Baskerville", serif;
+  font-size: 20px;
+  font-weight:600px;
+  margin:0px;
+}
+
+h1 {
+  font-family: "League Spartan", sans-serif;
+    color: #124e78;
+    padding-top: 30px;
+    font-size: 90px;
+    margin-bottom: 20px;
+
+    font-weight: 700;
     text-align: center;
-    justify-content: space-between;
-    margin-left:0px;
-    margin-right:0px;
-    margin-bottom:0px;
-    
-  }
-  
-  .container{
-    display:flex;
-    flex-direction: column;
-    margin-left:0px;
-    margin-right:0px;
-    border-style: solid;
-    border-color:#6e0e0a;
   }
 
-  .container p{
-    text-align:center;
-    
-    font-family: "Libre Baskerville", serif;
-    font-size: 15px;
-  }
-
-  .container h3{
-    text-align:center;
-    font-family: "Libre Baskerville", serif;
-    font-size: 20px;
-    font-weight:600px;
-    margin:0px;
-  }
-  
-  h1 {
-    font-family: "League Spartan", sans-serif;
-      color: #124e78;
-      padding-top: 30px;
-      font-size: 90px;
-      margin-bottom: 20px;
-  
-      font-weight: 700;
-      text-align: center;
-    }
-  
-  .office h2 {
-    font-family: "League Spartan", sans-serif;
-    color: #124e78;
-      padding-left: 10px;
-      padding-right: 10px;
-      font-size:40px;
-      margin-top: 0px;
-      font-weight: 600;
-      
-  }
-
-  h2{
-    font-family: "Libre Baskerville", serif;
-    color: #124e78;
-      font-size:24px;
-      margin-top: 0px;
-      font-weight: 600;
-      text-align:center;
-  }
-  
-  .office h3 {
-    font-family: "League Spartan", sans-serif;
-    color: #124e78;
-    
+.office h2 {
+  font-family: "League Spartan", sans-serif;
+  color: #124e78;
     padding-left: 10px;
     padding-right: 10px;
-    font-size:25px;
+    font-size:40px;
+    margin-top: 0px;
     font-weight: 600;
-    margin-top:-20px;
-    margin-bottom:30px;
-  }
+    
+}
+
+h2{
+  font-family: "Libre Baskerville", serif;
+  color: #124e78;
+    font-size:24px;
+    margin-top: 0px;
+    font-weight: 600;
+    text-align:center;
+}
+
+.office h3 {
+  font-family: "League Spartan", sans-serif;
+  color: #124e78;
   
-  .office h4{
-    font-family: "Libre Baskerville", serif;
-    color: #124e78;
-    font-size:20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size:25px;
+  font-weight: 600;
+  margin-top:-20px;
+  margin-bottom:30px;
+}
+
+.office h4{
+  font-family: "Libre Baskerville", serif;
+  color: #124e78;
+  font-size:20px;
+  font-weight: 500;
+  font-style: italic;
+  margin-top:-30px;
+  margin-bottom:30px;
+}
+
+.office img{
+
+  width: 25%;
+  height: 25%;
+}
+
+.bottom img {
+  width: 100%;
+  height: auto;
+}
+
+.Contact_Donors{
+  background-repeat: no-repeat;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  margin-left:30px;
+  margin-right:60px;
+  margin-bottom:50px;
+}
+
+.Contact_Donors h2{
+  font-family: "League Spartan", sans-serif;      color: #124e78;
+    font-size:24px;
+    margin: 5px;
     font-weight: 500;
-    font-style: italic;
-    margin-top:-30px;
-    margin-bottom:30px;
-  }
+    text-align: center;
+}
 
-  .office img{
+.Contact_Donors h3{
+  font-family: "League Spartan", sans-serif;      color: #124e78;
+    font-size:20px;
+    margin: 5px;
+    font-weight: 500;
+    text-align: center;
+}
 
-    width: 25%;
-    height: 25%;
-  }
+.first h4{
+  font-family: "League Spartan", sans-serif;      color: #124e78;
+    font-size:18px;
+    margin: 5px;
+    font-weight: 500;
+    text-align: center;
+}
 
-  .bottom img {
+
+
+.third h4{
+  font-family: "League Spartan", sans-serif;
+    font-size:18px;
+    margin: 5px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Contact_Donors h5{
+  font-family: "League Spartan", sans-serif;
+  color:#124e78;
+    font-size:18px;
+    font-weight: 500;
+    text-align: center;
+    margin:2px;
+}
+
+.Contact_Donors p{
+  font-family: "League Spartan", sans-serif;
+    font-size:18px;
+    font-weight: 500;
+    text-align: center;
+    margin:2px;
+}
+
+p em{
+  margin:0px;
+  padding:0px;
+}
+
+ul {
+  font-family: "League Spartan", sans-serif;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
     width: 100%;
-    height: auto;
-  }
+    height: 124px;
+    background-image: url("../img/schedule/ulback.png");
+}
+li {
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 10px;
+  text-align: center;
+}
 
-  .Contact_Donors{
-    background-repeat: no-repeat;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 40px;
-    margin-left:30px;
-    margin-right:60px;
-    margin-bottom:50px;
-  }
+li a {
+  display: block;
+  color: #f3e2c6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  .Contact_Donors h2{
-    font-family: "League Spartan", sans-serif;      color: #124e78;
-      font-size:24px;
-      margin: 5px;
-      font-weight: 500;
-      text-align: center;
-  }
+li a:hover:not(.active) {
+  background-color: #961d30;
+}
 
-  .Contact_Donors h3{
-    font-family: "League Spartan", sans-serif;      color: #124e78;
-      font-size:20px;
-      margin: 5px;
-      font-weight: 500;
-      text-align: center;
-  }
-
-  .first h4{
-    font-family: "League Spartan", sans-serif;      color: #124e78;
-      font-size:18px;
-      margin: 5px;
-      font-weight: 500;
-      text-align: center;
-  }
+.active {
+  background-color: #6e0e0a;
+}
 
 
-
-  .third h4{
-    font-family: "League Spartan", sans-serif;
-      font-size:18px;
-      margin: 5px;
-      font-weight: 500;
-      text-align: center;
-  }
-
-  .Contact_Donors h5{
-    font-family: "League Spartan", sans-serif;
-    color:#124e78;
-      font-size:18px;
-      font-weight: 500;
-      text-align: center;
-      margin:2px;
-  }
-
-  .Contact_Donors p{
-    font-family: "League Spartan", sans-serif;
-      font-size:18px;
-      font-weight: 500;
-      text-align: center;
-      margin:2px;
-  }
-  
-  p em{
-    margin:0px;
-    padding:0px;
-  }
-  
-  ul {
-    font-family: "League Spartan", sans-serif;
-      list-style-type: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      margin: 0;
-      width: 100%;
-      height: 124px;
-      background-image: url("../img/schedule/ulback.png");
-  }
-  li {
-    float: left;
-    font-size: 30px;
-    font-weight: bold;
-    padding-top: 10px;
-    text-align: center;
-  }
-  
-  li a {
-    display: block;
-    color: #f3e2c6;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #961d30;
-  }
-  
-  .active {
-    background-color: #6e0e0a;
-  }
-  
-  
-  body {
-  background-image: url("../img/schedule/cssback.png");
-  padding-top:50px;
-  }
+body {
+background-image: url("../img/schedule/cssback.png");
+padding-top:50px;
 }
 
 
@@ -250,6 +243,23 @@
 
   .active {
   background-color: #6e0e0a;
+  }
+  
+  h1 {
+    font-family: "League Spartan", sans-serif;
+      color: #1f1812;
+      text-align: center;
+      padding-bottom: 10px;
+      padding-top: 10 px;
+      font-size: 40px;
+      margin-bottom: 0px;
+      font-weight: bold;
+    }
+
+  img {
+      width: 400px;
+      height: 20vh;
+      
   }
 
   }
