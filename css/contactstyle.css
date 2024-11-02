@@ -5,7 +5,7 @@
     margin-top:10px;
     padding-top: 25px;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-left:0px;
     margin-right:0px;
     margin-bottom:0px;
@@ -90,12 +90,13 @@
   }
 
   .office img{
+
     width: 25%;
     height: 25%;
   }
 
   .Contact_Donors{
-    background-image: url(../img/about/Guild-Shop.jpg);
+    background-repeat: no-repeat;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
