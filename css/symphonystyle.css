@@ -177,3 +177,44 @@ li a:hover:not(.active) {
 .item{
   flex: auto;
 }
+
+@media only screen and (max-width: 400px) {
+  ul {
+    font-family: "League Spartan", sans-serif;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 124px;
+    background-image: url("../img/schedule/ulback.png");
+  }
+
+ li {
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  text-align: center;
+  }
+
+  li a {
+  display: block;
+  color: #f3e2c6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+  background-color: #961d30;
+  }
+
+  .active {
+  background-color: #6e0e0a;
+  }
+  body {
+    background-image: url("../img/schedule/cssback.png");
+  }
+}
